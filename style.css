@@ -1,0 +1,355 @@
+        body,
+        .container,
+        .container-fluid,
+        .row,
+        .col-sm-6 {
+            background-color: #121212 !important;
+            color: #e0e0e0;
+        }
+
+        body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+.navbar {
+  background-color: #1f1f1f !important;
+}
+
+
+        .navbar {
+  background: rgba(31, 31, 31, 0.6) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 12px rgba(0, 230, 118, 0.1);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 0 0 20px 20px;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e676, #03a9f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  transition: 0.4s ease;
+}
+
+.navbar .navbar-brand:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+}
+
+.navbar .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #00e676 !important;
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(0, 230, 118, 0.6);
+}
+
+#cat{
+    font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e676, #03a9f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  transition: 0.4s ease;
+}
+
+        .news-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 320px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(228, 70, 120, 0.2), 0 0 20px rgba(237, 102, 172, 0.1);
+  padding: 1.2rem;
+  margin: 1rem 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+.news-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #03a9f4, #ff0058);
+  z-index: 0;
+  filter: blur(30px);
+  opacity: 0.3;
+}
+
+.news-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+.news-card:hover img {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
+.news-card h3,
+.news-card p {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.5rem;
+}
+
+.news-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.news-card p {
+  font-size: 0.9rem;
+  color: #dddddd;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #fff;
+  border: 1px solid #00e676;
+  border-radius: 30px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #03a9f4;
+  box-shadow: 0 0 0 0.2rem rgba(0, 230, 118, 0.25);
+}
+
+.btn-outline-success {
+  border-radius: 30px;
+  font-weight: 500;
+  border-color: #00e676;
+  color: #00e676;
+  transition: 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #00e676;
+  color: #121212;
+  box-shadow: 0 0 10px #00e676;
+}
+
+
+
+        .carousel-inner img {
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(0.8);
+        }
+
+        footer {
+            background-color: #212121;
+        }
+
+        footer h5 {
+            color: #00e676;
+        }
+
+        footer a {
+            color: #cccccc;
+        }
+
+        footer a:hover {
+            color: #00e676;
+        }
+
+        .form-control,
+        .form-control:focus {
+            background-color: #2b2b2b;
+            color: #ffffff;
+            border: 1px solid #444;
+        }
+
+        .btn-outline-success {
+            color: #00e676;
+            border-color: #00e676;
+        }
+
+        .btn-outline-success:hover {
+            background-color: #00e676;
+            color: #121212;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+        }
+
+        hr.border-light {
+            border-color: #444 !important;
+        }
+
+        .card {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  background: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#03a9f4,#ff0058);
+  filter: blur(30px);
+}
+
+.card b {
+  position: absolute;
+  inset: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.4;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.card:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+.card .content {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.card:hover .content {
+  transform: scale(1);
+  bottom: 25px;
+}
+
+.card .content,
+.card b {
+  z-index: 2;
+}
+
+
+.content .title {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1em;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content .title span {
+  font-weight: 300;
+  font-size: 0.70em;
+}
+
+.content .sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li .fa-brands {
+  width: 14px;
+}
+
+.sci li .fa-facebook {
+  width: 10px;
+}
+
+.sci li a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.2);
+  fill: currentColor;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 1);
+}
